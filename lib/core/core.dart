@@ -4,3 +4,4 @@ export 'widget/elvated_btn.dart';
 export 'resources/dimens.dart';
 export 'resources/style.dart';
 export 'widget/custom_text_field.dart';
+export 'widget/color_dot.dart';

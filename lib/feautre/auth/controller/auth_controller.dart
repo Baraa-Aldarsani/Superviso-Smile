@@ -42,7 +42,7 @@ class AuthController extends GetxController {
           maskType: EasyLoadingMaskType.black,
           duration: const Duration(milliseconds: 500));
       clearData();
-      Get.to(const HomeView());
+      Get.to(HomeView());
       setUser(userModel);
       _saveToken(userModel.token.toString());
       _saveID(userModel.id.toString());
